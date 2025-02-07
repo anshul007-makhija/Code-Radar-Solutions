@@ -5,7 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    scanf("%s",&pi);
-    printf("%s",pi );
+    float x=3.14;
+    scanf("%s",&x);
+    printf("%s",x);
     return 0;
 }
