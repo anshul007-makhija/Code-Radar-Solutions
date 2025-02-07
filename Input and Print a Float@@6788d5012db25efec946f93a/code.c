@@ -6,6 +6,6 @@ char* welcome() {
 
 int main() {
     float pi=3.14;
-    printf("%s", welcome());
+    printf("%s", pi);
     return 0;
 }
