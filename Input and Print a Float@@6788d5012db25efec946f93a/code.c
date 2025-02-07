@@ -5,7 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    scanf("%s",&3.14);
-    printf("%s", 3.14);
+    float pi;
+    print("enter pi")
+    scanf("%s",&pi);
+    printf("%s",pi );
     return 0;
 }
