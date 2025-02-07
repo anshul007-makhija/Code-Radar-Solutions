@@ -6,8 +6,11 @@ int main() {
     int y=10;
     int a=b=0;
     int sum;
-    sum=x+y;
+    sum1=x+y;
+    sum2=a+b;
     scanf("%d",&x,&y);
-    printf("Sum: %d", sum);
+    scanf("%d",&a,&b);
+    printf("Sum: %d", sum1);
+    printf("Sum: %d", sum2);
     return 0;
 }
