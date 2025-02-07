@@ -2,7 +2,7 @@
 
 int main() {
     float x=3.14;
-    scanf("%s",&x);
-    printf("%s",x);
+    scanf("%f",&x);
+    printf("%f",x);
     return 0;
 }
