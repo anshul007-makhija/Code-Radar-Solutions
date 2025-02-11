@@ -7,10 +7,10 @@ int main() {
     char True;
     char False;
     if(x>y){
-        printf("%c",True,x,y);
+        printf("%c");
     }
     else if(y>x){
-        printf("%c",False,y);
+        printf("%c");
     }
     
     return 0;
