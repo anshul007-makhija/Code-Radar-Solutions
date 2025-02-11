@@ -5,11 +5,11 @@ char* welcome() {
 }
 
 int main() {
-    char x=[];
-    char y=[];
-    scanf("%s",&x);
-    scanf("%s",&y);
-    printf("%s",x);
-    printf("%s",y);
+    char str1[];
+    char str2[];
+    scanf("%s",&str1);
+    scanf("%s",&str2);
+    printf("%s",str1);
+    printf("%s",str2);
     return 0;
 }
