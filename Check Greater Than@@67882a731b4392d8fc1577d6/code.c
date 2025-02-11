@@ -4,6 +4,7 @@
 int main() {
     scanf("%d",&x);
     scanf("%d",&y);
+    printf("%d",x,y)
     if(x>y){
         printf("%c",1);
     }
