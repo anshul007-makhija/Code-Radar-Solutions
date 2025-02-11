@@ -11,7 +11,7 @@ int main() {
     if(x>y){
         printf("%c",True);
     }
-    else if {
+    else if(y>x) {
         printf("%c",False);
     }
     
