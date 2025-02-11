@@ -7,10 +7,10 @@ int main() {
     scanf("%d",&x);
     scanf("%d",&y);
     if(x>y){
-        printf("%d",1);
+        printf("%d",True);
     }
     else{
-        printf("%d",0);
+        printf("%d",False);
     }
     
     return 0;
