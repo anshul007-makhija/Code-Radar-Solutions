@@ -9,6 +9,6 @@ int main() {
     scanf("%f",&x);
     printf("Enter the first floating-point number: ");
     scanf("%f",&y);
-    printf("%.2f\n", x*y);
+    printf("product: %.2f\n", x*y);
     return 0;
 }
