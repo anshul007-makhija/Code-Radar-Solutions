@@ -6,7 +6,7 @@ int main() {
     int y=3;
     scanf("%d",&x);
     scanf("%d",&y);
-    if(x>y){
+    if(x>y);{
         printf("%d",True);
     }
     else {
