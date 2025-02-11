@@ -8,10 +8,10 @@ int main() {
     scanf("%d",&y);
     char True;
     char False;
-    if(intx>inty){
+    if(x>y){
         printf("%c",True);
     }
-    else{
+    else if(y>x){
         printf("%c",False);
     }
     
