@@ -2,8 +2,8 @@
 
 
 int main() {
-    int x;
-    int y;
+    int x=5;
+    int y=3;
     scanf("%d",&x);
     scanf("%d",&y);
     if(x>y){
