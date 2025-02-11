@@ -12,7 +12,7 @@ int main() {
         printf("%c",True);
     }
     else {
-        printf("%d",False);
+        printf("%c",False);
     }
     
     return 0;
