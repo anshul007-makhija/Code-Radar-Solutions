@@ -9,10 +9,10 @@ int main() {
     char True;
     char False;
     if(x>y){
-        printf("%d",True)
+        printf("%d",True);
     }
     else{
-        printf("%d",False)
+        printf("%d",False);
     }
     
     return 0;
