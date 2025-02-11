@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    string x=[5];
-    string y=[5];
+    string x=[];
+    string y=[];
     scanf("%s",&x);
     scanf("%s",&y);
     printf("%s",x);
