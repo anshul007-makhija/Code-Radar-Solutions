@@ -14,7 +14,7 @@ int main() {
     else if(y>x){
         printf("%c",False,y);
     }
-    while 1;
+    char while 1;
     
     return 0;
 }
