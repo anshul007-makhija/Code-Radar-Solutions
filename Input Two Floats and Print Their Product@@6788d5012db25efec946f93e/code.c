@@ -6,6 +6,7 @@ int main() {
     float y;
     scanf("%f",&x);
     scanf("%f",&y);
+    float x*y;
     printf("product: %.2f\n", x*y);
     return 0;
 }
