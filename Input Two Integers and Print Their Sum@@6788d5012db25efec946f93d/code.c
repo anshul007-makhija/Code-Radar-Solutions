@@ -2,8 +2,7 @@
 
 
 int main() {
-   int x=5;
-   int y=10;
+   int x,y;
    int sum=x+y;
    scanf("%d",&x);
    scanf("%d",&y);
