@@ -4,8 +4,6 @@
 int main() {
     scanf("%d",&x);
     scanf("%d",&y);
-    char True;
-    char False;
     if(x>y){
         printf("%c",1);
     }
