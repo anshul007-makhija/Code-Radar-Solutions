@@ -2,8 +2,8 @@
 
 
 int main() {
-    int x=5;
-    int y=3;
+    int x;
+    int y;
     scanf("%d",&x);
     scanf("%d",&y);
     char True;
