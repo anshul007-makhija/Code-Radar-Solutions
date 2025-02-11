@@ -6,11 +6,12 @@ int main() {
     int y;
     scanf("%d",&x);
     scanf("%d",&y);
-    if(x>y){
-        printf("%s",True);
+
+    if(intx>inty){
+        printf("%",True);
     }
     else{
-        printf("%s",False);
+        printf("%",False);
     }
     
     return 0;
