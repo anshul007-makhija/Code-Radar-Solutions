@@ -16,7 +16,7 @@ int main() {
     else if((!(ch>='a' && ch<='z') || !(ch>='A' && ch<='Z'))){
         printf("Digit");
     }
-    else{
+    else if (!isalnum(ch) && ch != ' '){
         printf("Special Character");
     }
     
