@@ -6,8 +6,7 @@ char* welcome() {
 
 int main() {
     int x,y;
-    scanf("%d",&x);
-    scanf("%d",&y);
+    scanf("%d %d",&x, &y);
     if(x>0 && y>0){
         print("True");
     }
