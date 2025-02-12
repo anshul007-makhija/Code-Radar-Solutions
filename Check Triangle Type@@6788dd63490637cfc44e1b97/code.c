@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int x,y,z;
+    float x,y,z;
     if(x==y && y==z){
         printf("Equilateral");
     }
