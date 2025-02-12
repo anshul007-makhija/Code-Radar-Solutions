@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int x;
     scanf("%d",&x);
-    if(x/1==x  && x&2!=0 && x%3!=0){
+    if(x/1==x  && x&2!=0 && x%3!=0 &&x!=2 &&x!=3){
         printf("Prime");
     }
     else{
