@@ -9,6 +9,7 @@ int main() {
     char y[100];
     scanf("%s",&x);
     scanf("%s",&y);
-    printf("You entered:%s",x&&y);
+    printf("You entered:%s",x);
+    printf("You entered:%s",y);
     return 0;
 }
