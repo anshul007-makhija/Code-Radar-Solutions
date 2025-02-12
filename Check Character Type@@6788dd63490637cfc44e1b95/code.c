@@ -14,10 +14,10 @@ int main() {
         printf("Consonant");
     }
     else if((!(ch>='a' && ch<='z') || !(ch>='A' && ch<='Z'))){
-        printf("Special Character");
+        printf("Digit");
     }
     else{
-        printf("Digit");
+        printf("Special Character");
     }
     
 
