@@ -9,11 +9,11 @@ int main() {
     if(x==y &&x==z &&y==z){
         printf("equilateral");
     }
-    else if(x!=y!=z){
-        printf("scalene");
+    else if(x==y &&x!=z){
+        printf("isosceles");
     }
     else{
-        printf("isosceles");
+        printf("scalene");
     }
     return 0;
 }
