@@ -12,8 +12,8 @@ int main() {
     scanf("%d",&y);
     scanf("%s",&z);
 
-    printf("Name: %s",x);
-    printf("Age: %d", y);
+    printf("Name: %s",x\n);
+    printf("Age: %d", y\n);
     printf("Hobby: %s",z);
     return 0;
 }
