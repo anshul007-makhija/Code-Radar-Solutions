@@ -9,10 +9,10 @@ int main() {
     scanf("%d",&x);
     scanf("%d",&y);
     if(x>0 && y>0){
-        print("True");
+        print("1");
     }
     else{
-        print("False");
+        print("0");
     }
     return 0;
 }
