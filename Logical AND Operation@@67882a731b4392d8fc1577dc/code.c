@@ -5,10 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int x;
-    int y;
-    scanf("%d",&x);
-    scanf("%d",&y);
+    double x,y;
+    scanf("%lf",&x);
+    scanf("%lf",&y);
     if(x>0 && y>0){
         print("True");
     }
