@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int CP;
     int SP;
-    scanf("%d %d",&CP.&SP);
+    scanf("%d %d",&CP,&SP);
     if(SP>CP){
         printf("Profit");
     }
