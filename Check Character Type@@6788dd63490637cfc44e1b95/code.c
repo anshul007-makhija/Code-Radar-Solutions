@@ -14,7 +14,7 @@ int main() {
         printf("Consonant");
     }
     else{
-        printf("Digit or Special character")
+        printf("Digit or Special character");
     }
     
 
