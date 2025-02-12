@@ -9,7 +9,7 @@ int main() {
     scanf("%lf",&x);
     scanf("%lf",&y);
     if(x>0 && y>0){
-        print("True");
+        print("True\n");
     }
     else{
         print("False");
