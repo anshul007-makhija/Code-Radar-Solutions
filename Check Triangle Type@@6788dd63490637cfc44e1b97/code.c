@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int x,y,z;
-    if(x==y ||x==z ||y==z){
+    if(x==y && y==z){
         printf("Equilateral");
     }
     else if(x==y||y==z||x==z){
