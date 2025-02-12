@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int x,y,z;
     if(x==y ||x==z ||y==z){
-        printf("equilateral");
+        printf("Equilateral");
     }
     else if(x==y &&x!=z){
         printf("isosceles");
