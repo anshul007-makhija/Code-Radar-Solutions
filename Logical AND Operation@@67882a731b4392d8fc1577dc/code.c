@@ -7,11 +7,11 @@ char* welcome() {
 int main() {
     int x,y;
     scanf("%d %d",&x, &y);
-    if(x>0 && y>0){
-        print("True");
+    if (x>0 && y>0){
+        printf("True");
     }
     else{
-        print("False");
+        printf("False");
     }
     return 0;
 }
