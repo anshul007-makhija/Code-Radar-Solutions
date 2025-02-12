@@ -5,11 +5,11 @@ char* welcome() {
 }
 
 int main() {
-    double x,y;
-    scanf("%lf",&x);
-    scanf("%lf",&y);
+    int x,y;
+    scanf("%d",&x);
+    scanf("%d",&y);
     if(x>0 && y>0){
-        print("True\n");
+        print("True");
     }
     else{
         print("False");
