@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 char* welcome() {
     return "Welcome to Code Radar!";
@@ -13,10 +14,10 @@ int main() {
     else if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')){
         printf("Consonant");
     }
-    else if((!(ch>='a' && ch<='z') || !(ch>='A' && ch<='Z'))){
+    else if(isdigit(ch)){
         printf("Digit");
     }
-    else if (!isalnum(ch) && ch != ' '){
+    else if{
         printf("Special Character");
     }
     
