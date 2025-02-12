@@ -8,10 +8,10 @@ int main() {
     int x=4;
     scanf("%d",&x);
     if(x%2==0){
-        printf("even");
+        printf("Even");
     }
     else{
-        printf("odd");
+        printf("Odd");
     }
     return 0;
 }
