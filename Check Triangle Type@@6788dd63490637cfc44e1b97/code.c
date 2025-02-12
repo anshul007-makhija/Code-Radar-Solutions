@@ -10,7 +10,7 @@ int main() {
         printf("Equilateral");
     }
     else if(x==y ||x!=z||y!=z){
-        printf("isosceles");
+        printf("Isosceles");
     }
     else{
         printf("scalene");
