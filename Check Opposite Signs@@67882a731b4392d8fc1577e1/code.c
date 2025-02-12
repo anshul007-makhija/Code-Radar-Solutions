@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int x,y:
+    int x,y;
     scanf("%d",&x);
     scanf("%d",&y);
     if((x>0 && y<0)||(x<0 && y>0)){
