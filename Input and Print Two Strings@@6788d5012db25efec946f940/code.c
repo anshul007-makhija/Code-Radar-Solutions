@@ -10,6 +10,6 @@ int main() {
     scanf("%s",&x);
     scanf("%s",&y);
     printf("You entered:%s",x);
-    printf("%s",y);
+    printf(" %s",y);
     return 0;
 }
