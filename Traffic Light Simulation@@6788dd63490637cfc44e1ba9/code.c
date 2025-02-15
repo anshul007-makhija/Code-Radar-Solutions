@@ -7,12 +7,12 @@ char* welcome() {
 int main() {
     char ch;
     scanf("%c",&ch);
-    if(R){
+    if("R"){
         printf("Stop");
-    else if(Y){
+    else if("Y"){
         printf("Slow Down");
     }
-    else if(G){
+    else if("G"){
         printf("Go");
     }
     else{
