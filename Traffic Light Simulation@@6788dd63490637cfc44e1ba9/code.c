@@ -15,7 +15,7 @@ int main() {
         printf("Go");
         break;
     Default:
-        printf("Invalid input")
+        printf("Invalid input");
     }
     return 0;
 }
