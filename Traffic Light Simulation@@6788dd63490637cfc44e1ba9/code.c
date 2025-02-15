@@ -9,6 +9,8 @@ int main() {
     scanf("%c",&ch);
     if("R"){
         printf("Stop");
+    }
+
     else if("Y"){
         printf("Slow Down");
     }
@@ -18,6 +20,6 @@ int main() {
     else{
         printf("Invalid input";)
     }
-    }
+    
     return 0;
 }
