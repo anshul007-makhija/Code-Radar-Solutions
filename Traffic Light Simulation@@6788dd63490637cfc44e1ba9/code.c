@@ -10,7 +10,6 @@ int main() {
     if("R"){
         printf("Stop");
     }
-
     else if("Y"){
         printf("Slow Down");
     }
