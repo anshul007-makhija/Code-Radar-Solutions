@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     char ch;
     scanf("%c",&ch);
-    switch(ch)
+    switch(ch){
     case R:
         printf("Stop");
         break;
@@ -16,5 +16,6 @@ int main() {
         break;
     Default:
         printf("Invalid input")
+    }
     return 0;
 }
