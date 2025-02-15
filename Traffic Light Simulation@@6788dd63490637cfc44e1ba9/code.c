@@ -10,11 +10,11 @@ int main() {
     if("R"){
         printf("Stop");
     }
-    else if("Y"){
-        printf("Slow Down");
-    }
     else if("G"){
         printf("Go");
+    }
+    else if("Y"){
+        printf("Slow Down");
     }
     else{
         printf("Invalid input");
