@@ -17,7 +17,7 @@ int main() {
         printf("Go");
     }
     else{
-        printf("Invalid input";)
+        printf("Invalid input");
     }
     
     return 0;
