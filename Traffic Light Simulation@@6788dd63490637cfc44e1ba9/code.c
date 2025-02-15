@@ -5,16 +5,17 @@ char* welcome() {
 }
 
 int main() {
-    char c;
-    scanf("%c",&c);
-    if("R"){
-        printf("Stop");
-    }
-    else if("G"){
-        printf("Go");
-    }
-    else{
-        printf("Invalid input");
-    }
+    char ch;
+    scanf("%c",&ch);
+    switch(ch)
+    case R:
+    printf("Stop");
+    break;
+    case G:
+    printf("Go");
+    break;
+    case Y:
+    printf("Invalid input");
+    break;
     return 0;
 }
