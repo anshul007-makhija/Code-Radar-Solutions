@@ -10,7 +10,7 @@ int main() {
     if(x==R){
         printf("Stop");
     }
-    if(x==G){
+    else if(x==G){
         printf("Go");
     }
     else if(x==Y){
