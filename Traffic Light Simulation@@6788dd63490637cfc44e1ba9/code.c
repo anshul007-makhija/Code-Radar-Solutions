@@ -9,13 +9,13 @@ int main() {
     scanf("%c",&ch);
     switch(ch)
     case R:
-    printf("Stop");
-    break;
+        printf("Stop");
+        break;
     case G:
-    printf("Go");
-    break;
+        printf("Go");
+        break;
     case Y:
-    printf("Invalid input");
-    break;
+        printf("Invalid input");
+        break;
     return 0;
 }
