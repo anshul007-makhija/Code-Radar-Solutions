@@ -14,8 +14,7 @@ int main() {
     case G:
         printf("Go");
         break;
-    case Y:
-        printf("Invalid input");
-        break;
+    Default:
+        printf("Invalid input")
     return 0;
 }
