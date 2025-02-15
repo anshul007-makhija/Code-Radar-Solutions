@@ -13,7 +13,7 @@ int main() {
     if(x==G){
         printf("Go");
     }
-    else if(x==Y){
+    if(x==Y){
         printf("Slow Down");
     }
     else{
