@@ -5,7 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    for(i=;,i=N;i++;){
+    int N;
+    scanf("%d",&N)
+    for(i=N;,i<=1;i--;){
         printf("%d",*);
     }
     return 0;
