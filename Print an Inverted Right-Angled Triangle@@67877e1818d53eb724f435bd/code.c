@@ -9,6 +9,7 @@ int main() {
     scanf("%d",&N);
     while(i=N){
         printf("*");
+        i--;
     }
     return 0;
 }
