@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int N;
     scanf("%d",&N);
-    for(i=N;,i<=1;i--;){
+    while(i=N){
         printf("*");
     }
     return 0;
