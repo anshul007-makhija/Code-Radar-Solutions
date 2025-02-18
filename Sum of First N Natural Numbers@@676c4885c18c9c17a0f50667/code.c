@@ -8,7 +8,7 @@ int main() {
 
     // Loop to calculate the sum
     for (int i = 1; i <= N; i++) {
-        sum += i;
+        sum =sum+i;
     }
 
     // Output the sum
