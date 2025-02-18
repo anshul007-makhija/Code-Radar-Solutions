@@ -1,23 +1,20 @@
 #include <stdio.h>
-#include<ctype.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
 
 int main() {
-    char ch;
-    scanf("%c",&ch);
-    if(ch>='A'|| ch<='Z'){
-        printf("Uppercase");
-    }
-    else if (ch>='a'|| ch<'z'){
-        printf("Lowercase");
-    }
-    else{
-        printf("Not an alphabet");
-    }
+    char character;
 
+    // Input a character from the user
+    printf("Enter a character: ");
+    scanf("%c", &character);
+
+    // Check if the character is uppercase or lowercase using ASCII ranges
+    if (character >= 'A' && character <= 'Z') {
+        printf("The character '%c' is uppercase.\n", character);
+    } else if (character >= 'a' && character <= 'z') {
+        printf("The character '%c' is lowercase.\n", character);
+    } else {
+        printf("The character '%c' is neither uppercase nor lowercase.\n", character);
+    }
 
     return 0;
 }
