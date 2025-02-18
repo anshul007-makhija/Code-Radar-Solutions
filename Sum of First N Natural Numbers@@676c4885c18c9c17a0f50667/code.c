@@ -4,7 +4,6 @@ int main() {
     int N, sum = 0;
 
     // Input the number N
-    printf("Enter a number N: ");
     scanf("%d", &N);
 
     // Loop to calculate the sum
