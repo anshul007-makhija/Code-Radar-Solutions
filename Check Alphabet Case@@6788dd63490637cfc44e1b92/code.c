@@ -4,7 +4,6 @@ int main() {
     char character;
 
     // Input a character from the user
-    printf("Enter a character: ");
     scanf("%c", &character);
 
     // Check if the character is uppercase or lowercase using ASCII ranges
