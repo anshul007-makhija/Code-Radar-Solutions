@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &N);
 
     // Loop to calculate the sum
-    for (int i = 1; i <= N; i++) {
+    for (int i = 0; i <= N; i++) {
         sum =sum+i;
     }
 
