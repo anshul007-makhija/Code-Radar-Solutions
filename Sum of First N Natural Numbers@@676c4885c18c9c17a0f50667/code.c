@@ -11,6 +11,6 @@ int main() {
     for(i=1;i<N;i++){
         sum=sum+i;
     }
-    printf("%d",N,sum);
+    printf("%d\N",N,sum);
     return 0;
 }
