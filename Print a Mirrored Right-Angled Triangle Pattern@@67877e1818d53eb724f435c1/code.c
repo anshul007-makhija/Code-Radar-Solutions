@@ -2,10 +2,14 @@
 int main(){
     int N;
     scanf("%d",&N);
-    for(i=N;i<=0;i++){
-        for(j=N;j<=1;j++){
+    for(i=1;i<=N;i++){
+        for(j=1;j<=N;j++){
+            printf(" ");
+        }
+        for(j=1;j<=N;j++){
             printf("*");
         }
+        printf("\n");
     }
     return 0;
 }
