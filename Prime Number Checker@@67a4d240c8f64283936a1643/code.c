@@ -13,5 +13,7 @@ int main(){
         scanf("%d",&num);
         printf("%d\n",isprime(num));
     }
+    isprime();
+    notprime();
     return 0;
 }
