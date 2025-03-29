@@ -1,5 +1,5 @@
 #include <stdio.h>
-void prime(){
+void isprime(){
     printf("1");
 void notprime(){
     printf("0");
