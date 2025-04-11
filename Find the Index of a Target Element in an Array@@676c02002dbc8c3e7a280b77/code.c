@@ -4,7 +4,7 @@ int main(){
     int arr[n];
     scanf("%d",&n);
     if(n>n-1){
-        printf("%d",arr[n]);
+        printf("%d",arr[]);
     }
     else{
         printf("-1");
