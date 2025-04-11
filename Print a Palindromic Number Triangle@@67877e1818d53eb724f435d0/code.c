@@ -8,6 +8,9 @@ int main(){
         }
     for(int k=1;k<=i;k++){
         printf("%d\n",k);
+    }
+    for(int k=i-1;k>=1;k--){
+        printf("%d",k)
     }    
     }
     return 0;
